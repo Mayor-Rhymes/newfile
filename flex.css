@@ -1,0 +1,42 @@
+*{
+
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+body
+{
+
+
+    background-color: lightgrey;
+
+}
+
+.wrapper
+{
+
+
+    width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: whitesmoke;
+    text-align: center;
+    padding: 20px 20px;
+
+
+    
+}
+
+.wrapper h1
+{
+
+    color: lightcoral;
+    //font-family: 'Ubuntu';
+    text-shadow: 1px 2px 1px black;
+
+
+}

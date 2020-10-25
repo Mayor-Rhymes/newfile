@@ -1,0 +1,261 @@
+*{
+
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+
+
+    background-color: #D4FED6;
+}
+
+
+.heading
+{
+
+
+    display: flex;
+    background-color: #D4FED6;
+    justify-content: space-between;
+    padding-left: 17px;
+    padding-right:  300px;
+    height: 80px;
+    align-items: center;
+
+
+    
+
+
+
+}
+
+
+.heading h1
+{
+
+
+
+    color: #C835A1;
+    font-size: 35px;
+    font-family: 'Nirmala UI';
+
+}
+
+
+.list
+{
+
+    list-style-type: none;
+    padding-top: 15px;
+    
+
+}
+
+.list li
+{
+
+
+    display: inline-block;
+    margin-left: 20px;
+}
+.list a{
+
+    text-decoration: none;
+    color:  #C835A1;
+    font-family: 'Ubuntu';
+    
+
+}
+
+.next
+{
+
+
+
+    height: 400px;
+    background-color: #670760;
+    margin-top: 0;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Palatino';
+
+
+
+
+}
+.next h2{
+
+    font-size: 30px;
+    color: #FF6347;
+}
+
+.next p{
+
+    
+    background-color:#48D1CC;
+    margin-top: 20px;
+    padding: 7px;
+    font-family: 'Segoe UI';
+    border-radius: 5px;
+    color: whitesmoke;
+    
+
+
+}
+
+.next p:hover
+{
+
+
+    cursor: pointer;
+}
+
+.foot
+{
+
+
+
+    position: absolute;
+    height: 60px;
+    background-color:#FF7F50;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    bottom: 0;
+    align-items: center;
+}
+#hamburg
+{
+
+     width: 40px;
+    height: 50px;
+    
+    display: none;
+
+}
+.rug
+{
+
+
+    width: 100%;
+    background-color:  #670760;
+    height: 10px;
+    
+
+    margin-bottom: 5px;
+
+}
+.rug:nth-child(1)
+{
+
+    margin-top: 10px;
+}
+
+
+#crew
+     {
+
+
+        display: none;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        position: absolute;
+        
+
+
+        
+     }
+
+
+@media screen and (max-width: 600px)
+{
+
+
+    .list{
+
+
+
+        display: none;
+
+    }
+     #hamburg{
+
+
+        position: absolute;
+        display: block;
+        right: 0;
+        margin-right: 7px;
+        z-index: 2;
+
+
+     }
+
+     #hamburg:hover
+     {
+
+
+        cursor: pointer;
+
+
+     }
+
+     #crew
+     {
+
+
+        display: none;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 0;
+        background-color: grey;
+        z-index: 1;
+    
+        
+
+
+        
+     }
+
+     #crew ul
+     {
+
+
+        list-style-type: none;
+
+     }
+
+     #crew li
+     {
+
+
+
+        margin-bottom: 10px;
+     }
+
+
+     #crew a
+     {
+
+
+        text-decoration: none;
+        color: tomato;
+        font-family: 'Roboto';
+        font-size: 40px;
+        text-align: center;
+        
+     }
+
+
+    
+}

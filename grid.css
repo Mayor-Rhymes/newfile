@@ -1,0 +1,165 @@
+*
+{
+
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body
+{
+
+
+    background-color: whitesmoke;
+}
+
+.head
+{
+
+    display: flex;
+    height:  60px;
+    background-color: #eee;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 5px 5px 4px lightgrey;
+    margin-bottom: 4px;
+
+
+    
+
+}
+
+.head > ul
+{
+
+
+    list-style-type: none;
+    padding: 10px;
+    
+
+}
+.head li{
+
+
+
+    display: inline-block;
+    margin-left: 14px;
+}
+
+.head a 
+{
+
+  text-decoration: none;
+  color: lightcoral;
+  font-family: 'Ubuntu';
+  
+
+
+}
+
+.head a:hover{
+
+
+
+    text-shadow: 1px 1px lightgrey;
+}
+
+.head h1{
+
+   font-family: "Sofia";
+   color: coral;
+   text-shadow: 1px 2px 2px black;
+   font-size: 35px;
+   
+
+
+
+
+}
+
+.next
+{
+
+    display: flex;
+    align-items: center;
+    height: 30vh;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Roboto';
+    /*background-color: paleturquoise;*/
+    padding: 10px;
+    
+    
+
+
+}
+
+.next h2
+{
+
+
+    font-family: 'Grandstander';
+    font-size: 30px;
+    color: palevioletred;
+    line-height: 1em;
+    
+}
+
+
+.pics
+{
+
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 7px;
+    grid-row-gap: 7px;
+    grid-auto-rows: 200px;
+    grid-auto-columns: 100px;
+    margin-top: 10px;
+    padding: 10px;
+    
+
+
+
+}
+
+
+
+.pics > div
+{
+
+
+    background-color: turquoise;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid lightgrey;
+
+    transition: transform 0.6s ease-in;
+    box-shadow: 3px 4px 3px lightgrey;
+
+    font-family: "Roboto";
+  
+
+    
+
+}
+
+
+.pics > div:hover
+{
+
+
+    cursor: pointer;
+    transform: translateY(-10px);
+}
+
+
+.pics >div:nth-child(odd)
+{
+
+
+    background-color: transparent;
+}
